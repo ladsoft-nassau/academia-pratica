@@ -8,13 +8,13 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 - [ ] __3 - Subir o arquivo e dar pull request para este repositório.__
 
 ### Entrega:
-- [ ] __Adryelle__
+- [ ] __Adrielly__
 - [ ] __Affonso__
 - [ ] __Arthur__
 - [ ] __Breno__
 - [ ] __Gilberto__
 - [ ] __Isabelle__
-- [ ] __João Vitor__
+- [ ] __João Victor__
 - [ ] __Júlia__
 - [ ] __Oscar__
 - [ ] __Pablo__
