@@ -14,7 +14,7 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 - [ ] __Breno__
 - [X] __Gilberto__
 - [X] __Isabelle__
-- [ ] __João Victor__
+- [X] __João Victor__
 - [ ] __Júlia__
 - [ ] __Oscar__
 - [ ] __Pablo__
