@@ -8,7 +8,7 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 - [ ] __3 - Subir o arquivo e dar pull request para este repositório.__
 
 ### Entrega:
-- [X ] __Adrielly__
+- [X] __Adrielly__
 - [ ] __Affonso__
 - [ ] __Arthur__
 - [ ] __Breno__
