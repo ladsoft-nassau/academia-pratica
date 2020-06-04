@@ -4,78 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Academia de Prática de Desenvolvimento de Software da LadSoft</title>
+  <style>
+    title{
+      text-align: center;
+    }
+    h1{
+      text-align: center;
+    }
+    h2{
+      text-align: center;
+    }
+    body{
+      font-family: Roboto,sans-serif;
+    }
+  </style>
 </head>
 <body>
   <h1>Academia de Prática de Desenvolvimento de Software da LadSoft</h1>
 
   <h2>Git e Github. Para que serve e como usar? </h2>
-  <small>Por: ADRIELLY SILVA</small>
+  <small>Por: Gilberto Martins.</small>
   <hr>
   <p>
+    Git é um controlador de versão de códigos, ele funciona no seu local(pc), ele perimite manter um histórico de alteração deu sei arquivo, permitindo voltar na cersão anterior de antes de alguma alteração. 
+    Github é como uma rede social de programadores/desemvolvedores, ela perimite postar o codigos e também perimite clonar uma repositorio para fazer alguma alteração, e permite a colaboração de outros programadores.
+
+   <p><strong>O Git oferece:</strong>
+
+    <li>1° controle de história(permite ver todas as versões anterior do codigo ser alterado, e sinaliza onde e qual foi a alteração);</li>
+
+    <li>2° permite trabalhar em equipe no mesmo;</li>
+
+    <li>3° Ramificação do projeto(dividir o projeto em parte, e depois juntar);</li>
+
+    <li>4° seguranção(niguem pode ver ou altera sua parte da ramificação);</li>
+
+    <li>5° Organização.</li>
+   </p>
+
+   <p><strong>Configurações do Git:</strong>
+    
+    Para configurar o nome e o e-mail do usuario:
+    
+    <li>para o nome: <strong>git config --global user.name"nome do usuario"</strong></li>
+    
+    <li>para o e-mail: <strong>git config --global user.email"e-mail do usuario"</strong></li>
+
+    <li>para ver o nome e o e-mail que estão nas configurações do Git:
+     <strong>git config user.name</strong>  e  <strong>git config user.name</strong></li>
+    </p>
+    <p><strong>Para clonar um repositorio:</strong>
+    <li><strong>git clone url</strong>  no lugar da "url" deve coloca o endereço do repositorio no Github para que possa ser clonado.</li>
+   </p>
+
+   <p>O Git separa os arquivos em guatro estados bem definidos como os arquivos vão ser: <strong>untacked , unmodifiel, modifiel e staged</strong>
+
+    <li>O <strong>untacked(não marcado)</strong>: é o momento em que o qrquivo acabou de ser adicionando mais não foi visto pelo Git.
+    </li>
+
+    <li>O <strong>unmodifiel(não modificado)</strong>: é quando o arquivo acaba de ser visto pelo Git.</li>
+
+    <li>O <strong>modifiel(modificado)</strong>: é quando o arquivo foi modificado e ainda não foi adicionando com essa alteração.</li>
+
+    <li>O <strong>staged(encenado)</strong>: é quando o arquivo esta pronto para executar o commit, quando o commit for executado ele volta para o estagio de unmodifiel.</li>
+   </p>
+
+   <p>Para adicionar um arquivo no repositorio:
+    <li><strong>git add nome_arquivo</strong></li>
+   </p>
+   <p>
+     Para deletar um arquivo do repositorio:
+     <li><strong>git rm nome-arquivo</strong></li>
+   </p>
+   <p>
+     Para adicionar arquivos deletados:
+     <li><strong>git add --all</strong></li>
+     <li><strong>git add -A</strong></li>
+   </p>
+
+   <p>Apos adicionar um arquivo deve ser feito o comando "commit" para que o Git possa criar o controle de versões desse aquivo.
+    comando Commit:
+    <li><strong>git commit -m""</strong></li>
+    O commit deve sempre ter uma mensagem para que possa saber o que foi feito nessa versão do aquivo.
+   </p>
+
+   <p>Caso o arquivo esteja no estado modifiel é possivel ver qual foi a alteração:
+    <li><strong>git diff</strong></li>
+   </p>
+
+   <p>Para saber quantos commits tem no repositorio e ver o histórico desse repositorio é so executar o comando log:
+    <li><strong>git log</strong></li>
+    Ele ira lista cada commit que foi executado nesse repositorio com o dia e a hora do commit e também ira mostra um conjuto de caracteris e numeros que são a chave de identificação do commit, se colocar a chave do commit de pois do log ira mostra a mensagem do commit:
+    <li><strong>git log chave-commit</strong></li>
+   </p>
+   <p>
+     Caso queira ver no histórico o nome dos arquivos que estão em cada commit:
+     <li><strong>git log --name-status</strong></li>
+   </p>
    
-<b> Git : </b> 
-<p>
-Git é um sistema de controle de versão, que foi criado com o objetivo de controlar o código fonte, o desenvolvimento e alteração que o mesmo vem sofrendo. É extremamente importante para se ter um controle do que foi feito no projeto, pois todas as alterações nele, ficam salvas dentro de um repositório, desde a mais antiga para a mais atual. Além de ser uma prática que vem sido adotada ao longo de anos. 
-
-<p>
-
-<b> Github: </b>
-<p>
-Uma plataforma de hospedagem de código fonte com controle de versão, onde se hospeda o Git na web. 
-
-<p>
-
-<b> Iniciando um repositório pelo prompt de comando: </b>
-<p>
-
-mkdir ladsoft-git
-<p>
-cd ladsoft-git
-<p>
-git init
-<p>
-
-<b>Verificando o status com git status: </b>
-<p>
-
-git status
-
-<p>
-<b> Adicionando arquivos ao Git: </b>
-<p>
-git add REAME.md
-<p>
-
-<b> Commitando no Git: </b>
-<p>
-<b> <i>observação: commitar alterações significa salvar o estado em q o codigo fonte está naquele momento, evitando que as implementações anteriores sejam perdidas </b> </i>
-<p>
-git commit -m "Primeiro Commit"
-
   </p>
-
-<b> Enviando um repositório Git existente para o Github a partir da linha de comando </b>
-<p>
-git remote add origin https://github.com/adriellyscsantos/modulogit.git
-<p>
- git push -u origin master
-<p>
-<b> Clonando repositórios no Github: </b>
-<p>
-git clone -url-do-repositório-que-deseja-clonar-
-<p>
-
-<b> Solicitar mudanças de outros repositórios </b>
-<p>
-º No Github, no projeto clonado no seu perfil, clicar na opção "New Pull Request"
-<p>
-º Clicar em "Create Pull Request", e argumentar sobre as modificações.
-<p>
-º Aguardar que as modificações sejam aceitas pelo proprietário.
-
-<p>
-
-  <marquee> <b> OBRIGADA! </b> </marquee>
   
 </body>
 </html>
