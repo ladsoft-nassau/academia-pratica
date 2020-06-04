@@ -1,4 +1,4 @@
-# academia-pratica-git
+﻿# academia-pratica-git
 Repositório com os projetos desenvolvidos na academia prática de desenvolvimento de software da LadSoft
 ----
 
@@ -8,13 +8,16 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 - [ ] __3 - Subir o arquivo e dar pull request para este repositório.__
 
 ### Entrega:
-- [ ] __Adrielly__
+- [X] __Adrielly__
 - [ ] __Affonso__
 - [ ] __Arthur__
 - [ ] __Breno__
 - [ ] __Gilberto__
+
 - [ ] __Isabelle__
 - [X] __João Victor__
+=======
+
 - [ ] __Júlia__
 - [ ] __Oscar__
 - [ ] __Pablo__
