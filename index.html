@@ -33,33 +33,29 @@
     }
 
     .modal {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 10%;
-    }
-
-    .modal-content {
       width: 500px;
       height: 400px;
       background-color: #f2f2f2;
       padding: 20px;
       border-radius: 15px;
+      position: fixed;
+      top: 30%;
+      left: 35%;
     }
 
-    .modal-content h3 {
+    .modal h3 {
       text-align: center;
     }
 
-    .modal-content ul {
+    .modal ul {
       list-style: none;
     }
 
-    .modal-content ul li {
+    .modal ul li {
       margin-top: 10px;
     }
 
-    .modal-content p {
+    .modal p {
       text-align: center;
       font-size: 1.25rem;
       font-weight: bold;
@@ -168,23 +164,21 @@
 
   <div id="modalzin" class="modal-wrapper">
     <div class="modal">
-      <div class="modal-content">
-        <h3>Passo-a-Passo para commitar repo<span role="img">👨‍💻</span></h3>
-        <ul>
-          <li><small>Obs: se o projeto estiver numa branch diferente o comando pra trocar de branch é git checkout
-              <-"nome da branch"-></small></li>
-          <li>git status - para saber dos arquivos que foram modificados/adicionados</li>
-          <li>git add <-"nome do arquivo/pasta"-> - para adicionar arquivo especifico ou git add . - para adicionar
-              todos os
-              arquivos</li>
-          <li>git commit -m "O comentário sobre as alterações realizadas, de preferência de forma sucinta e objetiva,
-            para que quem olhe o repo, saiba o que foi alterado/adicionado."</li>
-          <li>git push origin <-"nome da branch"->
-          </li>
-        </ul>
-        <p>Pronto!</p>
-        <small>Por: Peu Silva</small>
-      </div>
+      <h3>Passo-a-Passo para commitar repo<span role="img">👨‍💻</span></h3>
+      <ul>
+        <li><small>Obs: se o projeto estiver numa branch diferente o comando pra trocar de branch é git checkout
+            <-"nome da branch"-></small></li>
+        <li>git status - para saber dos arquivos que foram modificados/adicionados</li>
+        <li>git add <-"nome do arquivo/pasta"-> - para adicionar arquivo especifico ou git add . - para adicionar
+            todos os
+            arquivos</li>
+        <li>git commit -m "O comentário sobre as alterações realizadas, de preferência de forma sucinta e objetiva,
+          para que quem olhe o repo, saiba o que foi alterado/adicionado."</li>
+        <li>git push origin <-"nome da branch"->
+        </li>
+      </ul>
+      <p>Pronto!</p>
+      <small>Por: Peu Silva</small>
     </div>
   </div>
 
