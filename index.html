@@ -1,202 +1,21 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Academia de Prática de Desenvolvimento de Software da LadSoft</title>
-  <style>
-    html,
-    body {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
-
-    main {
-      padding: 0 10px 5px;
-    }
-
-    .modal-wrapper {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      height: 100vh;
-      width: 100%;
-      position: fixed;
-      background: rgba(0, 0, 0, .2);
-      z-index: 9999;
-      top: 0;
-      display: none;
-    }
-
-    .show {
-      display: block;
-    }
-
-    .modal {
-      width: 500px;
-      height: 400px;
-      background-color: #f2f2f2;
-      padding: 20px;
-      border-radius: 15px;
-      position: fixed;
-      top: 30%;
-      left: 35%;
-    }
-
-    .modal h3 {
-      text-align: center;
-    }
-
-    .modal ul {
-      list-style: none;
-    }
-
-    .modal ul li {
-      margin-top: 10px;
-    }
-
-    .modal p {
-      text-align: center;
-      font-size: 1.25rem;
-      font-weight: bold;
-      color: #f45;
-    }
-
-    .btn-modal {
-      background: #f45;
-      border: none;
-      border-radius: 10px;
-      font-weight: bold;
-      padding: 10px;
-      color: white;
-      display: block;
-      margin: 0 auto;
-      outline: none;
-      cursor: pointer;
-      margin-bottom: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de Prática de Desenvolvimento de Software da LadSoft</title>
 </head>
 
 <body>
-  <main>
     <h1>Academia de Prática de Desenvolvimento de Software da LadSoft</h1>
 
     <h2>Git e Github. Para que serve e como usar? </h2>
-    <small>Por: ADRIELLY SILVA</small>
+    <small>Por: Pedro Henrique Crispim Alves</small>
     <hr>
     <p>
-
-      <b> Git: </b>
-    <p>
-      Git é um sistema de controle de versão, que foi criado com o objetivo de controlar o código fonte, o
-      desenvolvimento
-      e alteração que o mesmo vem sofrendo. É extremamente importante para se ter um controle do que foi feito no
-      projeto,
-      pois todas as alterações nele, ficam salvas dentro de um repositório, desde a mais antiga para a mais atual. Além
-      de
-      ser uma prática que vem sido adotada ao longo de anos.
-
-    <p>
-
-      <b> Github: </b>
-    <p>
-      Uma plataforma de hospedagem de código fonte com controle de versão, onde se hospeda o Git na web.
-
-    <p>
-
-      <b> Iniciando um repositório pelo prompt de comando: </b>
-    <p>
-
-      mkdir ladsoft-git
-    <p>
-      cd ladsoft-git
-    <p>
-      git init
-    <p>
-
-      <b>Verificando o status com git status: </b>
-    <p>
-
-      git status
-
-    <p>
-      <b> Adicionando arquivos ao Git: </b>
-    <p>
-      git add REAME.md
-    <p>
-
-      <b> Commitando no Git: </b>
-    <p>
-      <b> <i>observação: commitar alterações significa salvar o estado em q o codigo fonte está naquele momento,
-          evitando
-          que as implementações anteriores sejam perdidas </b> </i>
-    <p>
-      git commit -m "Primeiro Commit"
-
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum magni mollitia veniam quas autem quaerat error nihil voluptates labore id eum, explicabo vel nemo nulla atque ratione, recusandae vero totam.
     </p>
-
-    <b> Enviando um repositório Git existente para o Github a partir da linha de comando </b>
-    <p>
-      git remote add origin https://github.com/adriellyscsantos/modulogit.git
-    <p>
-      git push -u origin master
-    <p>
-      <b> Clonando repositórios no Github: </b>
-    <p>
-      git clone -url-do-repositório-que-deseja-clonar-
-    <p>
-
-      <b> Solicitar mudanças de outros repositórios </b>
-    <p>
-      º No Github, no projeto clonado no seu perfil, clicar na opção "New Pull Request"
-    <p>
-      º Clicar em "Create Pull Request", e argumentar sobre as modificações.
-    <p>
-      º Aguardar que as modificações sejam aceitas pelo proprietário.
-
-    <p>
-
-      <marquee> <b> OBRIGADA! </b> </marquee>
-  </main>
-
-  <button class="btn-modal">Step-by-Step</button>
-
-  <div id="modalzin" class="modal-wrapper">
-    <div class="modal">
-      <h3>Passo-a-Passo para commitar repo<span role="img">👨‍💻</span></h3>
-      <ul>
-        <li><small>Obs: se o projeto estiver numa branch diferente o comando pra trocar de branch é git checkout
-            <-"nome da branch"-></small></li>
-        <li>git status - para saber dos arquivos que foram modificados/adicionados</li>
-        <li>git add <-"nome do arquivo/pasta"-> - para adicionar arquivo especifico ou git add . - para adicionar
-            todos os
-            arquivos</li>
-        <li>git commit -m "O comentário sobre as alterações realizadas, de preferência de forma sucinta e objetiva,
-          para que quem olhe o repo, saiba o que foi alterado/adicionado."</li>
-        <li>git push origin <-"nome da branch"->
-        </li>
-      </ul>
-      <p>Pronto!</p>
-      <small>Por: Peu Silva</small>
-    </div>
-  </div>
-
-  <script>
-    let modal = document.getElementById("modalzin");
-    let btn = document.querySelector(".btn-modal");
-
-    btn.addEventListener('click', () => {
-      modal.classList.add('show');
-    })
-    modal.addEventListener('click', (e) => {
-      if (e.target.id == 'modalzin') {
-        console.log(e.target);
-        modal.classList.remove('show');
-      }
-    })
-
-  </script>
 
 </body>
 
