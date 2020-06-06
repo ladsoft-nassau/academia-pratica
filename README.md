@@ -17,7 +17,7 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 - [ ] __João Victor__
 - [ ] __Júlia__
 - [ ] __Oscar__
-- [ ] __Pablo__
+- [X] __Pablo__
 - [ ] __Paulo__
 - [ ] __Pedro Crispim__
 - [ ] __Pedro Gromes__
