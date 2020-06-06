@@ -23,3 +23,4 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 - [ ] __Pedro Gromes__
 - [ ] __Thalys__
 - [ ] __Vinicius__
+- [X] __Pedro Silva__
