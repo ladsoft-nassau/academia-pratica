@@ -1,203 +1,131 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Academia de Prática de Desenvolvimento de Software da LadSoft</title>
   <style>
-    html,
-    body {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
-
-    main {
-      padding: 0 10px 5px;
-    }
-
-    .modal-wrapper {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      height: 100vh;
-      width: 100%;
-      position: fixed;
-      background: rgba(0, 0, 0, .2);
-      z-index: 9999;
-      top: 0;
-      display: none;
-    }
-
-    .show {
-      display: block;
-    }
-
-    .modal {
-      width: 500px;
-      height: 400px;
-      background-color: #f2f2f2;
-      padding: 20px;
-      border-radius: 15px;
-      position: fixed;
-      top: 30%;
-      left: 35%;
-    }
-
-    .modal h3 {
+    title{
       text-align: center;
     }
-
-    .modal ul {
-      list-style: none;
-    }
-
-    .modal ul li {
-      margin-top: 10px;
-    }
-
-    .modal p {
+    h1{
       text-align: center;
-      font-size: 1.25rem;
-      font-weight: bold;
-      color: #f45;
     }
-
-    .btn-modal {
-      background: #f45;
-      border: none;
-      border-radius: 10px;
-      font-weight: bold;
-      padding: 10px;
-      color: white;
-      display: block;
-      margin: 0 auto;
-      outline: none;
-      cursor: pointer;
-      margin-bottom: 20px;
+    h2{
+      text-align: center;
+    }
+    body{
+      font-family: Roboto,sans-serif;
     }
   </style>
 </head>
-
 <body>
-  <main>
-    <h1>Academia de Prática de Desenvolvimento de Software da LadSoft</h1>
+  <h1>Academia de Prática de Desenvolvimento de Software da LadSoft</h1>
 
-    <h2>Git e Github. Para que serve e como usar? </h2>
-    <small>Por: ADRIELLY SILVA</small>
-    <hr>
-    <p>
+  <h2>Git e Github. Para que serve e como usar? </h2>
+  <small>Por: Gilberto Martins.</small>
+  <hr>
+  <p>
+    Git é um controlador de versão de códigos, ele funciona no seu local(pc), ele perimite manter um histórico de alteração deu sei arquivo, permitindo voltar na cersão anterior de antes de alguma alteração.<br> 
+    Github é como uma rede social de programadores/desemvolvedores, ela perimite postar o codigos e também perimite<br>
+    clonar uma repositorio para fazer alguma alteração, e permite a colaboração de outros programadores.
 
-      <b> Git: </b>
-    <p>
-      Git é um sistema de controle de versão, que foi criado com o objetivo de controlar o código fonte, o
-      desenvolvimento
-      e alteração que o mesmo vem sofrendo. É extremamente importante para se ter um controle do que foi feito no
-      projeto,
-      pois todas as alterações nele, ficam salvas dentro de um repositório, desde a mais antiga para a mais atual. Além
-      de
-      ser uma prática que vem sido adotada ao longo de anos.
+   <p><strong>O Git oferece:</strong>
 
-    <p>
+  <ol type="i">
+    <li> controle de história(permite ver todas as versões anterior do codigo ser alterado, e sinaliza onde e qual foi a alteração);</li>
 
-      <b> Github: </b>
-    <p>
-      Uma plataforma de hospedagem de código fonte com controle de versão, onde se hospeda o Git na web.
+    <li> permite trabalhar em equipe no mesmo;</li>
 
-    <p>
+    <li> Ramificação do projeto(dividir o projeto em parte, e depois juntar);</li>
 
-      <b> Iniciando um repositório pelo prompt de comando: </b>
-    <p>
+    <li> seguranção(niguem pode ver ou altera sua parte da ramificação);</li>
 
-      mkdir ladsoft-git
-    <p>
-      cd ladsoft-git
-    <p>
-      git init
-    <p>
+    <li> Organização.</li>
+  </ol>
+   </p>
+  
 
-      <b>Verificando o status com git status: </b>
-    <p>
+   <p><strong>Configurações do Git:</strong>
+    
+    Para configurar o nome e o e-mail do usuario:
+    
+    <li>para o nome: <strong>git config --global user.name"nome do usuario"</strong></li>
+    
+    <li>para o e-mail: <strong>git config --global user.email"e-mail do usuario"</strong></li>
 
-      git status
-
-    <p>
-      <b> Adicionando arquivos ao Git: </b>
-    <p>
-      git add REAME.md
-    <p>
-
-      <b> Commitando no Git: </b>
-    <p>
-      <b> <i>observação: commitar alterações significa salvar o estado em q o codigo fonte está naquele momento,
-          evitando
-          que as implementações anteriores sejam perdidas </b> </i>
-    <p>
-      git commit -m "Primeiro Commit"
-
+    <li>para ver o nome e o e-mail que estão nas configurações do Git:
+     <strong>git config user.name</strong>  e  <strong>git config user.name</strong></li>
     </p>
+    <p><strong>Para clonar um repositorio:</strong>
+    <li><strong>git clone url</strong> 
+      no lugar da "url" deve coloca o endereço do repositorio no Github para que possa ser clonado.</li>
+   </p>
 
-    <b> Enviando um repositório Git existente para o Github a partir da linha de comando </b>
-    <p>
-      git remote add origin https://github.com/adriellyscsantos/modulogit.git
-    <p>
-      git push -u origin master
-    <p>
-      <b> Clonando repositórios no Github: </b>
-    <p>
-      git clone -url-do-repositório-que-deseja-clonar-
-    <p>
+   <p>O Git separa os arquivos em guatro estados bem definidos como os arquivos vão ser: <strong>untacked , unmodifiel, modifiel e staged</strong>
 
-      <b> Solicitar mudanças de outros repositórios </b>
-    <p>
-      º No Github, no projeto clonado no seu perfil, clicar na opção "New Pull Request"
-    <p>
-      º Clicar em "Create Pull Request", e argumentar sobre as modificações.
-    <p>
-      º Aguardar que as modificações sejam aceitas pelo proprietário.
+    <li>O <strong>untacked(não marcado)</strong>: é o momento em que o qrquivo acabou de ser adicionando mais não foi visto pelo Git.
+    </li>
 
-    <p>
+    <li>O <strong>unmodifiel(não modificado)</strong>: é quando o arquivo acaba de ser visto pelo Git.</li>
 
-      <marquee> <b> OBRIGADA! </b> </marquee>
-  </main>
+    <li>O <strong>modifiel(modificado)</strong>: é quando o arquivo foi modificado e ainda não foi adicionando com essa alteração.</li>
 
-  <button class="btn-modal">Step-by-Step</button>
+    <li>O <strong>staged(encenado)</strong>: é quando o arquivo esta pronto para executar o commit, quando o commit for executado ele volta para o estagio de unmodifiel.</li>
+   </p>
 
-  <div id="modalzin" class="modal-wrapper">
-    <div class="modal">
-      <h3>Passo-a-Passo para commitar repo<span role="img">👨‍💻</span></h3>
-      <ul>
-        <li><small>Obs: se o projeto estiver numa branch diferente o comando pra trocar de branch é git checkout
-            <-"nome da branch"-></small></li>
-        <li>git status - para saber dos arquivos que foram modificados/adicionados</li>
-        <li>git add <-"nome do arquivo/pasta"-> - para adicionar arquivo especifico ou git add . - para adicionar
-            todos os
-            arquivos</li>
-        <li>git commit -m "O comentário sobre as alterações realizadas, de preferência de forma sucinta e objetiva,
-          para que quem olhe o repo, saiba o que foi alterado/adicionado."</li>
-        <li>git push origin <-"nome da branch"->
-        </li>
-      </ul>
-      <p>Pronto!</p>
-      <small>Por: Peu Silva</small>
-    </div>
-  </div>
+   <p>Para adicionar um arquivo no repositorio:
+    <li><strong>git add nome_arquivo</strong></li>
+   </p>
+   <p>
+     Para deletar um arquivo do repositorio:
+     <li><strong>git rm nome-arquivo</strong></li>
+   </p>
+   <p>
+     Para adicionar arquivos deletados:
+     <li><strong>git add --all</strong></li>
+     <li><strong>git add -A</strong></li>
+   </p>
 
-  <script>
-    let modal = document.getElementById("modalzin");
-    let btn = document.querySelector(".btn-modal");
+   <p>Apos adicionar um arquivo deve ser feito o comando "commit" para que o Git possa criar o controle de versões desse aquivo.
+    comando Commit:
+    <li><strong>git commit -m""</strong></li>
+    <br>O commit deve sempre ter uma mensagem para que possa saber o que foi feito nessa versão do aquivo.
+   </p>
 
-    btn.addEventListener('click', () => {
-      modal.classList.add('show');
-    })
-    modal.addEventListener('click', (e) => {
-      if (e.target.id == 'modalzin') {
-        console.log(e.target);
-        modal.classList.remove('show');
-      }
-    })
+   <p>Caso o arquivo esteja no estado modifiel é possivel ver qual foi a alteração:
+    <li><strong>git diff</strong></li>
+   </p>
 
-  </script>
-
+   <p>Para saber quantos commits tem no repositorio e ver o histórico desse repositorio é so executar o comando log:
+    <li><strong>git log</strong></li>
+    <br>Ele ira lista cada commit que foi executado nesse repositorio com o dia e a hora do commit e também ira mostra um <br>conjuto de caracteris e numeros que são a chave de identificação do commit, se colocar a chave do commit de pois do log ira mostra a mensagem do commit:<br>
+    <br><li><strong>git log chave-commit</strong></li>
+   </p>
+   <p>
+     Caso queira ver no histórico o nome dos arquivos que estão em cada commit:
+     <li><strong>git log --name-status</strong></li>
+   </p>
+   <p>Criar um repositorio no Git Bash:
+     <li><strong>git add --bare</strong></li>
+   </p>
+   <p>Para adicionar um repositorio:
+     <li><strong>git remote add nome-do-repositorio caminho-do-repositorio </strong></li>
+   </p>
+   <p>Para sicronizar o repositorio com o servido:
+     <li><strong>git push nome-repositorio branch-que-estou-usando</strong></li>
+   </p>
+   <p>Para puxar os dados do repositorio no servidor:
+     <li><strong>git pull nome-do-repositorio branch-que-estou-usando</strong></li>
+   </p>
+   <p>Para usar um repositorio do GitHub:
+     <li><strong>git remote set-url nome-do-repositorio url-do-repositorio</strong></li>
+   </p>
+   <p>Agora se for executado os comandos:
+     <li><strong>git push nome-do-repositorio branch-que-estou-usando</strong></li>
+     <li><strong>git pull nome-do-repositorio branch-que-estou-usando</strong></li>
+     <br>Ira executar o push e o pull para o GitHub
+   </p>
+  </p>
 </body>
-
 </html>
