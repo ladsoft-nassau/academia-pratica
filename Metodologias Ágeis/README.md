@@ -1,4 +1,5 @@
- ﻿# Metodologias Ágeis em Desenvolvimento de Software
+Metodologias Ágeis em Desenvolvimento de Software
+----
 Repositório com os projetos desenvolvidos na academia prática de desenvolvimento de software da LadSoft
 ----
 
