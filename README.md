@@ -1,4 +1,4 @@
-﻿# academia-pratica-git
+ ﻿# academia-pratica-git
 Repositório com os projetos desenvolvidos na academia prática de desenvolvimento de software da LadSoft
 ----
 
@@ -11,16 +11,16 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 - [X] __Adrielly__
 - [ ] __Affonso__
 - [ ] __Arthur__
-- [ ] __Breno__
+- [X] __Breno__
 - [X] __Gilberto__
 - [X] __Isabelle__
 - [X] __João Victor__
 - [ ] __Júlia__
 - [ ] __Oscar__
 - [X] __Pablo__
-- [ ] __Paulo__
-- [ ] __Pedro Crispim__
+- [X] __Paulo__
+- [X] __Pedro Crispim__
 - [X] __Pedro Silva__
-- [ ] __Thalys__
+- [X] __Thalys__
 - [ ] __Vinicius__
 
