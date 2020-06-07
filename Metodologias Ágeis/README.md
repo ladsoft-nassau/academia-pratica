@@ -9,6 +9,8 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 - [ ] __Esclarecer os principais mal entendidos envolvendo esses métodos e mostrar como eles estão transformando o mercado de TI.__
 - [ ] __Responder o exercício ao final do ciclo e enviar para o repositório da liga.__
  
+### Instruções: 
+Dar fork neste repositório, criar uma branch. Dentro de sua branch criar uma pasta com o seu nome, nesta pasta deve ter um arquivo de texto com a resolução do exercício final. Enviar o conteúdo por Pull Request.
 
 ### Entrega:
 - [ ] __Adrielly__
