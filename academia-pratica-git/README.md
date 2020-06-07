@@ -11,15 +11,15 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 - [X] __Adrielly__
 - [ ] __Affonso__
 - [ ] __Arthur__
-- [ ] __Breno__
-- [ ] __Gilberto__
+- [X] __Breno__
+- [X] __Gilberto__
 - [X] __Isabelle__
-- [ ] __João Victor__
+- [X] __João Victor__
 - [ ] __Júlia__
 - [ ] __Oscar__
 - [x] __Pablo__
-- [ ] __Paulo__
-- [ ] __Pedro Crispim__
-- [ ] __Pedro Gromes__
-- [ ] __Thalys__
+- [X] __Paulo__
+- [X] __Pedro Crispim__
+- [X] __Pedro Gromes__
+- [X] __Thalys__
 - [ ] __Vinicius__
