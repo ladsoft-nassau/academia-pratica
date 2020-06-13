@@ -15,7 +15,6 @@ Dar fork neste repositório, criar uma branch. Dentro de sua branch criar uma pa
 ### Entrega:
 - [ ] __Adrielly__
 - [ ] __Affonso__
-- [ ] __Arthur__
 - [ ] __Breno__
 - [ ] __Gilberto__
 - [ ] __Isabelle__
