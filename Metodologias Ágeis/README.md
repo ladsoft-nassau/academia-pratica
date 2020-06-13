@@ -19,7 +19,7 @@ Dar fork neste repositório, criar uma branch. Dentro de sua branch criar uma pa
 - [ ] __Breno__
 - [ ] __Gilberto__
 - [ ] __Isabelle__
-- [ ] __João Victor__
+- [X] __João Victor__
 - [ ] __Júlia__
 - [ ] __Oscar__
 - [ ] __Pablo__
