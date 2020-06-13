@@ -10,7 +10,6 @@ Repositório com os projetos desenvolvidos na academia prática de desenvolvimen
 ### Entrega:
 - [X] __Adrielly__
 - [ ] __Affonso__
-- [ ] __Arthur__
 - [X] __Breno__
 - [X] __Gilberto__
 - [X] __Isabelle__
