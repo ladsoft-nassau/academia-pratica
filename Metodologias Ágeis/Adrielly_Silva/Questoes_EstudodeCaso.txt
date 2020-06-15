@@ -1,0 +1,14 @@
+*QUESTÕES DO ESTUDO DE CASO*
+
+
+1) Antes de cada Splint começar, é feita uma reunião chamada Splint Planning, na qual é criada uma reunião de planejamento onde o Product Owner(dono do produto) prioriza os itens do Product Backlog, e a equipe escolhe quais  atividades será capaz de implementar durante o Sprint que se inicia
+
+2) Não. Pois o método utilizado no projeto é uma metodologia ágil, que ocorre de forma iterativa, descobrindo quais percursos seguir ao decorrer das reuniões. A proposta que Leila sugeriu se refere a uma metodologia tradicional, onde é planejado com bastante antecedência.
+
+3) Felipe. Pois exercer o papel de liderança é extremamente importante para um PO, a comunicação é essencial para deixar claro os seus objetivos e instruções. Felipe tem conhecimento em metodologias ágeis e tem uma boa comunicação e sempre propõe formas de melhorar.
+
+4)Assumir tarefas de teste da splint. Pois é importante seguir o planejamento do projeto. Realizar as atividades da splint durante a mesma, e quando acabar, iniciar a próxima.
+
+5) Sim. Pois através do Product Backlog é possível fazer alterações nos recursos que estão sendo utilizados, onde pode haver mudanças.
+
+6) O kanban é um sistema ágil que funciona através de um quadro com colunas e cartões , onde as colunas representam os status do produto e os cartões as ações que precisam ser tomadas para que o resultado seja entregue.

@@ -1,0 +1,48 @@
+RELATÓRIO - METODOLOGIAS AGEIS
+Por: Adrielly
+
+*DIFERENÇA ENTRE METODOLOGIA ÁGIL E TRADICIONAL*
+
+-Método ágil- Ocorre de forma iterativa, descobrindo quais percursos seguir ao decorrer das reuniões. 
+-Método tradicional - Tudo é planejado com bastante antecedência.
+
+* OS MÉTODOS ÁGEIS (SCRUM, KANBAN E XP)*
+
+**SCRUM - Framework simples para organizar projetos complexos. Onde se discute o projeto com frequência, com métodos ágeis para ter todo o conhecimento da tecnologia e economizar tempo.
+Tres pilares: Transparencia, inspeção, adaptação.
+Sprint -  A principal reunião do SCRUM, pois é nela que ficam todas as outras reuniões.
+Daily Scrum.  - Reunião que é realizada a cada dia de uma Sprint.
+
+PAPÉIS:
+Scrum master - Responsável por ajudar os integrantes, um coach. Ajuda a equipe a entender a metodologia Scrum. 
+Product owner - Líder do produto. Responsável por administrar execução do projeto, qual a ordem, quais os recursos que serão utilizados etc.  Responsavel por descrever o que ele quer que seja desenvolvido.
+Dev team - equipe de desenvolvimento, que vão fazer o projeto.
+
+ºProduct Backlog -> É uma lista de prioridades, ontem tem os novos recursos que serão utilizados, alterações nos recursos existentes, correções de erros e bugs, ou qualquer tarefa que a  equipe possa realizar para chegar a um resultado.
+
+**KANBAN -  Sistema ágil para controle de produção ou gestão de tarefas. Ele é dividido em três partes:
+Cartão- Tarefa que precisa ser tomada para que o resultado seja entregue.
+Colunas- Representa o status dos cartões. (A fazer, Em execução, Feito)
+Quadro- O kanban como um todo.
+
+Objetivos do kanban:
+
+-Gerenciar o fluxo de trabalho 
+-Equilibrar os processos 
+-Limitar a quantidade de trabalho 
+
+Esses objetivos servem para manter uma rotina organizada e nunca sobrecarregar a equipe. Respeitando os limites de trabalho que serão realizados em um período de tempo.
+
+**XP- Metodologia ágil para equipes pequenas e médias que desenvolvem software baseado em requisitos que não são claros, e que podem ser alterados. Basicamente não é necessário detalhar todas as características do problema. O importante é entender. O XP tem quatro valores: 
+- Comunicação
+- Simplicidade
+- Feedback
+- Coragem
+
+*PRINCIPAIS MAL ENTENDIDOS ENVOLVENDO METODOLOGIAS ÁGEIS*
+
+" Metodologia ágil é só para projetos simples"
+- Essa afirmação está totalmente errada. Pois a metodologia independe da complexidade do problema. O método ágil colabora para melhor entendimento do que se faz em um projeto e facilita o desenvolvimento do mesmo.
+
+"Metodologia rápido torna a pessoa mais rápida"
+- A metodologia torna o desenvolvimento mais ágil, pois se tem todo um entendimento do que está sendo feito e se é necessário have alguma mudança.Mas isso não significa que aumentará a produtividade da equipe.
