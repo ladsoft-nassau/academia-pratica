@@ -1,0 +1,31 @@
+## Estudo de caso. Resolução por Julia Barbosa.
+
+Criar uma pasta com o seu nome e escrever um documento respondendo as questões abaixo.
+
+----
+
+- [ ] - __1 - De acordo com o Scrum, no primeiro dia de cada sprint do “Food truck na sua esquina”, uma atividade deve ocorrer na forma de uma reunião do time, com um propósito específico. Que reunião é essa e qual a sua finalidade?__
+
+A reunião em questão é a chamada "Sprint Planning" ou planejamento de sprint e tem como finalidade estabelecer os objetivos a serem tratados naquela sprint. Além de organizar o Backlog do produto, que são componentes listados por prioridades de desenvolvimento. Para mais, a reunião acontecerá entre o Product Ower e o time de desenvolvimento.
+
+- [ ] - __2 - Leila está propondo que, antes da primeira sprint começar, o time reserve um período de três meses para definir a arquitetura que será usada no desenvolvimento, antes de partir para a implementação das funcionalidades. A proposta dela é criar um framework que tente antecipar soluções para alguns desafios arquiteturais que o produto pode vir a enfrentar durante o desenvolvimento. Comente se essa proposta está alinhada aos princípios de desenvolvimento ágil e o porquê.__
+
+A proposta de Leila foge do princípio do desenvolvimento ágil uma vez que o Scrum trabalha com ciclos e focando no MVP(mínimo produto viável). Assim a cada sprint as alterações vão sendo feitas e o produto em desenvolvimento vai sendo trabalhado de acordo com o andamento do processo.
+
+- [ ] - __3 - Considerando a descrição feita dos integrantes da equipe, quem você considera ter melhor perfil para assumir o papel de Dono do Produto? Justifique sua resposta.__
+A Nathália é a pessoa mais indicada a assumir o cargo de PO(Product Owner), tendo em vista que ela já possuiu um food truck próprio. Sua experiência será essencial planejar e conseguir atender às funcionalidades e necessidades do app e do cliente.
+
+- [ ] - __4 - Faltando três dias para o final de uma sprint André terminou uma tarefa e notou que não havia mais tarefas de desenvolvimento a fazer. Todas as tarefas que ainda precisam ser feitas na sprint eram de testes e eram muitas. Na reunião diária, Leila propôs que André começasse a adiantar as tarefas de desenvolvimento da sprint seguinte, já que o time tinha um especialista em testes (Juliano) e não fazia sentido colocar o André, que era o melhor desenvolvedor do time, para testar. André está em dúvida, pois acha que Juliano sozinho não vai conseguir terminar os testes da sprint. Como coach do time você orientaria o André a seguir sugestão da Leila ou a assumir tarefas de teste da sprint? Justifique.__
+
+Tendo como base um dos princípios do desenvolvimento ágil, o qual deixa claro que uma nova sprint(ciclo) só pode ser iniciada quando a anterior for concluída, solicitaria que o André ajudasse o time de testes para concluir a sprint em questão antes de iniciar a próxima. 
+
+- [ ] - __5 - No meio de uma sprint o Dono do Produto teve um grande insight e pensou numa funcionalidade nova que deixaria o produto incrivelmente melhor. Apesar da funcionalidade não ter sido prevista até então no planejamento do projeto, ele gostaria de incluí-la no backlog e desenvolvê-la o quanto antes, para ter feedback dos usuários. Segundo as regras do Scrum, o Dono do Produto pode exigir que o time desenvolva esse novo item na sprint que está em andamento? Explique sua resposta.__
+
+Essa atitude está incorreta. Embora o PO(Product Owner) queira incluir esse insight, o indicado e correto de acordo com as regras do Scrum é que isso seja incluso no período de planejamento e não de execução de uma sprint. Então, o indicado seria concluir a sprint em questão sem adicionar esse insight.
+
+- [ ] - __6 - Explique como funciona o Kanban.__ 
+
+O Kanban funciona como gerenciador de produção, dividindo as tarefas em questão em quadros ou cards de "to do", "doing" e "done", esses cards são usados pra sinalizar as demandas dentro do desenvolvimento de um produto. A aplicação do Kanban para o sesenvolvimento de software segue 3 princípios básicos. 
+1 - tornar o ciclo de trabalho visível, ou seja, as tarefas são colocadas em cards e divididas em colunas, postas em um quadro de modo que todos possam ver. Ex: Trello.
+2- Limitar o trabalho em andamento(WIP).
+3- Medir o desempenho do fluxo usando o tempo de ciclo.
