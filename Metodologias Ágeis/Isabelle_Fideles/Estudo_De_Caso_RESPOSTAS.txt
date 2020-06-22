@@ -1,0 +1,17 @@
+1)De acordo com o Scrum, no primeiro dia de cada sprint do “Food truck na sua esquina”, uma atividade deve ocorrer na forma de uma reunião do time, com um propósito específico. Que reunião é essa e qual a sua finalidade?
+Resposta = Sprint Planning, onde acontece o planejamento de um Sprint. Estão presentes o Product Owner, o Scrum Master e o Time, quais vão discutir o que vão fazer de acordo com o backlog 
+
+2)Leila está propondo que, antes da primeira sprint começar, o time reserve um período de três meses para definir a arquitetura que será usada no desenvolvimento, antes de partir para a implementação das funcionalidades. A proposta dela é criar um framework que tente antecipar soluções para alguns desafios arquiteturais que o produto pode vir a enfrentar durante o desenvolvimento. Comente se essa proposta está alinhada aos princípios de desenvolvimento ágil e o porquê.
+Resposta = A proposta de Leila não está nos padrões da metodologia ágil, pois, a mesma não necessia de um planejamento detalhado para sua execução.
+
+3)Considerando a descrição feita dos integrantes da equipe, quem você considera ter melhor perfil para assumir o papel de Dono do Produto? Justifique sua resposta.
+Resposta = Felipe, porque para ser o dono do produto, a boa comunicação é essencial, pois, a metodologia agil gira entorno da boa comunicação entre os diferentes grupos da equipe. 
+
+4)Faltando três dias para o final de uma sprint André terminou uma tarefa e notou que não havia mais tarefas de desenvolvimento a fazer. Todas as tarefas que ainda precisam ser feitas na sprint eram de testes e eram muitas. Na reunião diária, Leila propôs que André começasse a adiantar as tarefas de desenvolvimento da sprint seguinte, já que o time tinha um especialista em testes (Juliano) e não fazia sentido colocar o André, que era o melhor desenvolvedor do time, para testar. André está em dúvida, pois acha que Juliano sozinho não vai conseguir terminar os testes da sprint. Como coach do time você orientaria o André a seguir sugestão da Leila ou a assumir tarefas de teste da sprint? Justifique.
+Resposta = Assumir a tarefa de testes da atual sprint, pois está no planejamento do projeto e adiantá-lo é mais importante. 
+
+5)No meio de uma sprint o Dono do Produto teve um grande insight e pensou numa funcionalidade nova que deixaria o produto incrivelmente melhor. Apesar da funcionalidade não ter sido prevista até então no planejamento do projeto, ele gostaria de incluí-la no backlog e desenvolvê-la o quanto antes, para ter feedback dos usuários. Segundo as regras do Scrum, o Dono do Produto pode exigir que o time desenvolva esse novo item na sprint que está em andamento? Explique sua resposta.
+Resposta =  Não, o ideal é que essa ideia só seja incorporada no desenvolvimento da próxima Sprint, pois o planejamento da Sprint já foi definido durante a reunião que ocorre antes de cada sprint iniciar.
+
+6)Explique como funciona o Kanban.
+Resposta = O kanban é uma metodologia ágil que funciona através de um quadro com colunas e cartões, essas colunas representam os status do produto(a fazer, em andamento e feito) e os cartões representam ações que precisam ser tomadas para que o resultado seja entregue.
